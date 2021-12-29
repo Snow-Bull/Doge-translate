@@ -20,7 +20,7 @@ body {
 
 
 
-.txtInput {
+#txt-input {
     border: 2px solid black;
     width: 50%;
     padding: 1rem;
@@ -42,7 +42,7 @@ body {
 
 }
 
-.txtOutput {
+#txt-output {
     border: 2px solid black;
     width: 50%;
     padding: 1rem;
@@ -58,12 +58,6 @@ body {
     text-align: center;
     margin: 1rem;
     padding-right: 30rem;
-}
-
-.button {
-    text-align: center;
-    margin: 2rem;
-
 }
 
 .footer {
