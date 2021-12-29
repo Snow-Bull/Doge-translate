@@ -7,6 +7,10 @@ var URl = "https://api.funtranslations.com/translate/doge.json";
 function newURL(text) {
     return URl + "?" + "text=" + text
 }
+function errorHandler(error){
+    console.log("Error Occured", error);
+    alert ("Something is wrong with server!!! Please Try Again Later...")
+};
 
 function afterclick() {
     var input = txtInput.value;
@@ -17,5 +21,7 @@ function afterclick() {
             var outputText = json.contents.translated;
             txtOutput.innerText = outputText;
         })
+        .catch(errorHandler)
+
 };
 btnTranslate.addEventListener("click", afterclick);
