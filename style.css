@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Permanent Marker', cursive;
-
+    background: #ffb5b5;
 }
 
 :root {
@@ -30,6 +30,9 @@ body {
     text-align: justify;
     margin: auto;
     margin-top: 3rem;
+    background: #385170;
+    color: white;
+    font-weight: bolder;
 
 }
 
@@ -53,6 +56,9 @@ body {
     text-align: justify;
     margin: auto;
     margin-top: 1rem;
+    background: #385170;
+    color: white;
+    font-weight: bolder;
 
 }
 
